@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1349CD0C1D6AE115008BA706 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349CD0B1D6AE115008BA706 /* main.m */; };
+		1349CD0F1D6AE115008BA706 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349CD0E1D6AE115008BA706 /* AppDelegate.m */; };
+		1349CD121D6AE115008BA706 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349CD111D6AE115008BA706 /* ViewController.m */; };
+		1349CD151D6AE115008BA706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1349CD131D6AE115008BA706 /* Main.storyboard */; };
+		1349CD171D6AE115008BA706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1349CD161D6AE115008BA706 /* Assets.xcassets */; };
+		1349CD1A1D6AE115008BA706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1349CD181D6AE115008BA706 /* LaunchScreen.storyboard */; };
+		1349CD251D6AE115008BA706 /* BasePlay_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349CD241D6AE115008BA706 /* BasePlay_iOSTests.m */; };
+		1349CD301D6AE115008BA706 /* BasePlay_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1349CD2F1D6AE115008BA706 /* BasePlay_iOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1349CD211D6AE115008BA706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1349CCFF1D6AE114008BA706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1349CD061D6AE115008BA706;
+			remoteInfo = "BasePlay-iOS";
+		};
+		1349CD2C1D6AE115008BA706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1349CCFF1D6AE114008BA706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1349CD061D6AE115008BA706;
+			remoteInfo = "BasePlay-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1349CD071D6AE115008BA706 /* BasePlay-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BasePlay-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1349CD0B1D6AE115008BA706 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1349CD0D1D6AE115008BA706 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1349CD0E1D6AE115008BA706 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1349CD101D6AE115008BA706 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1349CD111D6AE115008BA706 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1349CD141D6AE115008BA706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1349CD161D6AE115008BA706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1349CD191D6AE115008BA706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1349CD1B1D6AE115008BA706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1349CD201D6AE115008BA706 /* BasePlay-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BasePlay-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1349CD241D6AE115008BA706 /* BasePlay_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasePlay_iOSTests.m; sourceTree = "<group>"; };
+		1349CD261D6AE115008BA706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1349CD2B1D6AE115008BA706 /* BasePlay-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BasePlay-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1349CD2F1D6AE115008BA706 /* BasePlay_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasePlay_iOSUITests.m; sourceTree = "<group>"; };
+		1349CD311D6AE115008BA706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1349CD041D6AE115008BA706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1349CD1D1D6AE115008BA706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1349CD281D6AE115008BA706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1349CCFE1D6AE114008BA706 = {
+			isa = PBXGroup;
+			children = (
+				1349CD091D6AE115008BA706 /* BasePlay-iOS */,
+				1349CD231D6AE115008BA706 /* BasePlay-iOSTests */,
+				1349CD2E1D6AE115008BA706 /* BasePlay-iOSUITests */,
+				1349CD081D6AE115008BA706 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1349CD081D6AE115008BA706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1349CD071D6AE115008BA706 /* BasePlay-iOS.app */,
+				1349CD201D6AE115008BA706 /* BasePlay-iOSTests.xctest */,
+				1349CD2B1D6AE115008BA706 /* BasePlay-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1349CD091D6AE115008BA706 /* BasePlay-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1349CD0D1D6AE115008BA706 /* AppDelegate.h */,
+				1349CD0E1D6AE115008BA706 /* AppDelegate.m */,
+				1349CD101D6AE115008BA706 /* ViewController.h */,
+				1349CD111D6AE115008BA706 /* ViewController.m */,
+				1349CD131D6AE115008BA706 /* Main.storyboard */,
+				1349CD161D6AE115008BA706 /* Assets.xcassets */,
+				1349CD181D6AE115008BA706 /* LaunchScreen.storyboard */,
+				1349CD1B1D6AE115008BA706 /* Info.plist */,
+				1349CD0A1D6AE115008BA706 /* Supporting Files */,
+			);
+			path = "BasePlay-iOS";
+			sourceTree = "<group>";
+		};
+		1349CD0A1D6AE115008BA706 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1349CD0B1D6AE115008BA706 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1349CD231D6AE115008BA706 /* BasePlay-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1349CD241D6AE115008BA706 /* BasePlay_iOSTests.m */,
+				1349CD261D6AE115008BA706 /* Info.plist */,
+			);
+			path = "BasePlay-iOSTests";
+			sourceTree = "<group>";
+		};
+		1349CD2E1D6AE115008BA706 /* BasePlay-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1349CD2F1D6AE115008BA706 /* BasePlay_iOSUITests.m */,
+				1349CD311D6AE115008BA706 /* Info.plist */,
+			);
+			path = "BasePlay-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1349CD061D6AE115008BA706 /* BasePlay-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1349CD341D6AE115008BA706 /* Build configuration list for PBXNativeTarget "BasePlay-iOS" */;
+			buildPhases = (
+				1349CD031D6AE115008BA706 /* Sources */,
+				1349CD041D6AE115008BA706 /* Frameworks */,
+				1349CD051D6AE115008BA706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BasePlay-iOS";
+			productName = "BasePlay-iOS";
+			productReference = 1349CD071D6AE115008BA706 /* BasePlay-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1349CD1F1D6AE115008BA706 /* BasePlay-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1349CD371D6AE115008BA706 /* Build configuration list for PBXNativeTarget "BasePlay-iOSTests" */;
+			buildPhases = (
+				1349CD1C1D6AE115008BA706 /* Sources */,
+				1349CD1D1D6AE115008BA706 /* Frameworks */,
+				1349CD1E1D6AE115008BA706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1349CD221D6AE115008BA706 /* PBXTargetDependency */,
+			);
+			name = "BasePlay-iOSTests";
+			productName = "BasePlay-iOSTests";
+			productReference = 1349CD201D6AE115008BA706 /* BasePlay-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1349CD2A1D6AE115008BA706 /* BasePlay-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1349CD3A1D6AE115008BA706 /* Build configuration list for PBXNativeTarget "BasePlay-iOSUITests" */;
+			buildPhases = (
+				1349CD271D6AE115008BA706 /* Sources */,
+				1349CD281D6AE115008BA706 /* Frameworks */,
+				1349CD291D6AE115008BA706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1349CD2D1D6AE115008BA706 /* PBXTargetDependency */,
+			);
+			name = "BasePlay-iOSUITests";
+			productName = "BasePlay-iOSUITests";
+			productReference = 1349CD2B1D6AE115008BA706 /* BasePlay-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1349CCFF1D6AE114008BA706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Abhishek Dave";
+				TargetAttributes = {
+					1349CD061D6AE115008BA706 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					1349CD1F1D6AE115008BA706 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1349CD061D6AE115008BA706;
+					};
+					1349CD2A1D6AE115008BA706 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1349CD061D6AE115008BA706;
+					};
+				};
+			};
+			buildConfigurationList = 1349CD021D6AE114008BA706 /* Build configuration list for PBXProject "BasePlay-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1349CCFE1D6AE114008BA706;
+			productRefGroup = 1349CD081D6AE115008BA706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1349CD061D6AE115008BA706 /* BasePlay-iOS */,
+				1349CD1F1D6AE115008BA706 /* BasePlay-iOSTests */,
+				1349CD2A1D6AE115008BA706 /* BasePlay-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1349CD051D6AE115008BA706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1349CD1A1D6AE115008BA706 /* LaunchScreen.storyboard in Resources */,
+				1349CD171D6AE115008BA706 /* Assets.xcassets in Resources */,
+				1349CD151D6AE115008BA706 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1349CD1E1D6AE115008BA706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1349CD291D6AE115008BA706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1349CD031D6AE115008BA706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1349CD121D6AE115008BA706 /* ViewController.m in Sources */,
+				1349CD0F1D6AE115008BA706 /* AppDelegate.m in Sources */,
+				1349CD0C1D6AE115008BA706 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1349CD1C1D6AE115008BA706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1349CD251D6AE115008BA706 /* BasePlay_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1349CD271D6AE115008BA706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1349CD301D6AE115008BA706 /* BasePlay_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1349CD221D6AE115008BA706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1349CD061D6AE115008BA706 /* BasePlay-iOS */;
+			targetProxy = 1349CD211D6AE115008BA706 /* PBXContainerItemProxy */;
+		};
+		1349CD2D1D6AE115008BA706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1349CD061D6AE115008BA706 /* BasePlay-iOS */;
+			targetProxy = 1349CD2C1D6AE115008BA706 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1349CD131D6AE115008BA706 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1349CD141D6AE115008BA706 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1349CD181D6AE115008BA706 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1349CD191D6AE115008BA706 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1349CD321D6AE115008BA706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1349CD331D6AE115008BA706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1349CD351D6AE115008BA706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BasePlay-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhishek.BasePlay-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1349CD361D6AE115008BA706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BasePlay-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhishek.BasePlay-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1349CD381D6AE115008BA706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BasePlay-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhishek.BasePlay-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasePlay-iOS.app/BasePlay-iOS";
+			};
+			name = Debug;
+		};
+		1349CD391D6AE115008BA706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BasePlay-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhishek.BasePlay-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasePlay-iOS.app/BasePlay-iOS";
+			};
+			name = Release;
+		};
+		1349CD3B1D6AE115008BA706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BasePlay-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhishek.BasePlay-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BasePlay-iOS";
+			};
+			name = Debug;
+		};
+		1349CD3C1D6AE115008BA706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BasePlay-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhishek.BasePlay-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BasePlay-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1349CD021D6AE114008BA706 /* Build configuration list for PBXProject "BasePlay-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1349CD321D6AE115008BA706 /* Debug */,
+				1349CD331D6AE115008BA706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1349CD341D6AE115008BA706 /* Build configuration list for PBXNativeTarget "BasePlay-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1349CD351D6AE115008BA706 /* Debug */,
+				1349CD361D6AE115008BA706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1349CD371D6AE115008BA706 /* Build configuration list for PBXNativeTarget "BasePlay-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1349CD381D6AE115008BA706 /* Debug */,
+				1349CD391D6AE115008BA706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1349CD3A1D6AE115008BA706 /* Build configuration list for PBXNativeTarget "BasePlay-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1349CD3B1D6AE115008BA706 /* Debug */,
+				1349CD3C1D6AE115008BA706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1349CCFF1D6AE114008BA706 /* Project object */;
+}
