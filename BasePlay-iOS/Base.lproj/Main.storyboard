@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +18,46 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Badminton" translatesAutoresizingMaskIntoConstraints="NO" id="Zgu-aH-Gos"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BP_old_logo.svg" translatesAutoresizingMaskIntoConstraints="NO" id="Ur1-rA-Ug8">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="168" id="OUD-RA-DDP"/>
+                                    <constraint firstAttribute="width" constant="203" id="rON-VF-gLx"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LqH-yP-N7Z">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="0ZG-mh-xW8"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="facebook-login-blue-2"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ur1-rA-Ug8" secondAttribute="trailing" constant="70" id="0Il-P1-vDb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zgu-aH-Gos" secondAttribute="bottom" id="5tJ-Zg-7J4"/>
+                            <constraint firstAttribute="trailing" secondItem="LqH-yP-N7Z" secondAttribute="trailing" id="6IH-jQ-Xcc"/>
+                            <constraint firstItem="Zgu-aH-Gos" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BMj-3V-Bd1"/>
+                            <constraint firstAttribute="trailing" secondItem="Zgu-aH-Gos" secondAttribute="trailing" id="HcF-5b-KeC"/>
+                            <constraint firstItem="Ur1-rA-Ug8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kwi-37-a28"/>
+                            <constraint firstItem="Ur1-rA-Ug8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="eaO-14-6fF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LqH-yP-N7Z" secondAttribute="bottom" id="iPM-M9-mae"/>
+                            <constraint firstItem="Zgu-aH-Gos" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="q5G-nD-WhW"/>
+                            <constraint firstItem="LqH-yP-N7Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wZT-6W-lRG"/>
+                            <constraint firstItem="Ur1-rA-Ug8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="10" id="wv4-QF-pp2"/>
+                            <constraint firstItem="LqH-yP-N7Z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yXI-UH-P0L"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="138.0809595202399"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BP_old_logo.svg" width="1081" height="1024"/>
+        <image name="Badminton" width="640" height="1136"/>
+        <image name="facebook-login-blue-2" width="416" height="101"/>
+    </resources>
 </document>
